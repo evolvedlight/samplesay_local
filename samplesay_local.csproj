@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+     <PackAsTool>true</PackAsTool>
+    <ToolCommandName>samplesay_local</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <LangVersion>7.1</LangVersion>
+    <NoWarn>NU5105</NoWarn>
+
+    <Title>This is a sample dotnet global tool</Title>
+    <Authors>evolvedlight</Authors>
+    <Description>This is a .Net global tool that says hello world</Description>
+    <Copyright>Stephen Brown 2018</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/evolvedlight/samplesay_local/master/LICENSE.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/evolvedlight/samplesay_local</PackageProjectUrl>
+  </PropertyGroup>
+
+</Project>
