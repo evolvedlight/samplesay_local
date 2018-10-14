@@ -1,7 +1,7 @@
 pool:
   vmImage: 'Ubuntu 16.04'
 
-name: $(rev:.r)
+name: 1.0.$(rev:.r)
 
 steps:
 - task: DotNetCoreCLI@2
