@@ -4,10 +4,10 @@ pool:
 name: $(rev:.r)
 
 steps:
-- task: NuGetCommand@2
-  displayName: 'NuGet restore'
+- task: DotNetCoreCLI@2
+  displayName: 'dotnet restore'
   inputs:
-    restoreSolution: '*.csproj'
+    command: restore
 
 - task: DotNetCoreCLI@2
   displayName: 'dotnet build'
